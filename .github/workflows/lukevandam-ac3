@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: caller
 
 # Controls when the workflow will run
 on:              
@@ -30,6 +30,6 @@ jobs:
   
   triggerworkflow:
     uses: ./.github/workflows/manual.yml
-    #with:
-     # name: luke
+    with:
+      name: luke
           
