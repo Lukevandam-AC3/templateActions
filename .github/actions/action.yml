@@ -4,6 +4,8 @@ runs:
   steps:
     - name: paul
       run: echo hi
+      shell: bash
     - name: paul2
       run: echo hi
+      shell: bash
       
