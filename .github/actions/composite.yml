@@ -1,0 +1,9 @@
+name: lukescomp
+runs:
+  using: composite
+  steps:
+    - name: paul
+      run: echo hi
+    - name: paul2
+      run: echo hi
+      
